@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Food Restaurant & Bar</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="js/translations.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Art food</h1>
+            <p>Restaurant & Bar</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about" data-translate="about">About</a></li>
+                <li><a href="#menu" data-translate="menu">Menu</a></li>
+                <li><a href="#gallery" data-translate="gallery">Gallery</a></li>
+                <li><a href="#contact" data-translate="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button class="book-table-btn" data-translate="bookTable">Book a Table</button>
+            <div class="contact">
+                <select class="language-select">
+                    <option value="en" selected>English</option>
+                    <option value="ua">Ukrainian</option>
+                </select>
+                <!-- <div class="phone">+38 067 123 4567</div> -->
+            </div>
+        </div>
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- Slider Section -->
+    <section class="slider">
+        <div class="slide active">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Restaurant interior">
+            <div class="slide-content">
+                <h2 data-translate="welcomeTitle">Welcome to Art Food</h2>
+                <p data-translate="welcomeText">Experience the unique atmosphere and taste of exquisite cuisine</p>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section" id="about">
+        <div class="about">
+            <h2 class="section-header">About Us</h2>
+            <div class="about-content">
+                <ul id="aboutItems">
+                    <li>Signature European Cuisine</li>
+                    <li>Cozy Atmosphere & Stylish Interior</li>
+                    <li>Open Daily 10:00 AM - 11:00 PM</li>
+                    <li>Delivery & Reservations: +38 067 123 4567</li>
+                    <li>Live Music Every Friday & Saturday</li>
+                    <li>All Payment Methods Accepted</li>
+                    <li>Free Wi-Fi & Parking</li>
+                </ul>
+            </div>
+        </div>
+        <div class="wine-test">
+            <h2 data-translate="wineTasting">Wine Tasting</h2>
+            <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Wine testing">
+            <p data-translate="wineText">Join us every Thursday at 7 PM for wine tastings with our sommelier</p>
+        </div>
+        <div class="facebook">
+            <h2 data-translate="followUs">Follow Us</h2>
+            <div class="social-links">
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="telegram"><i class="fab fa-telegram"></i></a>
+                <a href="#" class="viber"><i class="fab fa-viber"></i></a>
+            </div>
+            <div class="contact-info">
+                <p class="phone"><i class="fas fa-phone"></i> +38 067 123 4567</p>
+                <p class="address"><i class="fas fa-map-marker-alt"></i> 10 Khreshchatyk Street, Kyiv</p>
+                <p class="email"><i class="fas fa-envelope"></i> info@artfood.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2 class="section-header">Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Restaurant Interior">
+                <div class="like-counter">
+                    <button class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <span class="likes-count">0</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Cozy Corner">
+                <div class="like-counter">
+                    <button class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <span class="likes-count">0</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Bar Counter">
+                <div class="like-counter">
+                    <button class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <span class="likes-count">0</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1574936145840-28808d77a0b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Terrace">
+                <div class="like-counter">
+                    <button class="like-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <span class="likes-count">0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Meal Section -->
+    <section class="best-meal">
+        <h2 class="section-header">Our Best Dishes</h2>
+        <p data-translate="bestDishesText">Try our signature dishes from the chef</p>
+        <div class="dishes-grid">
+            <div class="dish" data-dish="salmon">
+                <div class="dish-image-container">
+                    <img src="https://images.unsplash.com/photo-1485704686097-ed47f7263ca4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Salmon Steak">
+                </div>
+                <h3 data-translate="dishes.salmon.title">Salmon Steak</h3>
+                <p data-translate="dishes.salmon.desc">with grilled vegetables</p>
+            </div>
+            <div class="dish" data-dish="risotto">
+                <div class="dish-image-container">
+                    <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Mushroom Risotto">
+                </div>
+                <h3 data-translate="dishes.risotto.title">Mushroom Risotto</h3>
+                <p data-translate="dishes.risotto.desc">with truffle oil</p>
+            </div>
+            <div class="dish" data-dish="duck">
+                <div class="dish-image-container">
+                    <img src="https://images.unsplash.com/photo-1564436872-f6d81182df12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Duck Breast">
+                </div>
+                <h3 data-translate="dishes.duck.title">Duck Breast</h3>
+                <p data-translate="dishes.duck.desc">with caramelized apples</p>
+            </div>
+            <div class="dish" data-dish="tiramisu">
+                <div class="dish-image-container">
+                    <img src="https://images.unsplash.com/photo-1542124948-dc391252a940?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Tiramisu">
+                </div>
+                <h3 data-translate="dishes.tiramisu.title">Tiramisu</h3>
+                <p data-translate="dishes.tiramisu.desc">signature recipe</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2 class="section-header">Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3 data-translate="menuItems.main">Main Menu</h3>
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Main Menu">
+            </div>
+            <div class="menu-item">
+                <h3 data-translate="menuItems.wine">Wine List</h3>
+                <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Wine List">
+            </div>
+            <div class="menu-item">
+                <h3 data-translate="menuItems.desserts">Desserts</h3>
+                <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Desserts">
+            </div>
+            <div class="menu-item">
+                <h3 data-translate="menuItems.bar">Bar</h3>
+                <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Bar">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <div class="logo-footer">
+                <h3>Art food</h3>
+                <p>Restaurant & Bar</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="viber"><i class="fab fa-viber"></i></a>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h2 data-translate="bookingModal.title">Book a Table</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="name" data-translate="bookingModal.name">Your Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" data-translate="bookingModal.phone">Phone</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date" data-translate="bookingModal.date">Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time" data-translate="bookingModal.time">Time</label>
+                    <input type="time" id="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests" data-translate="bookingModal.guests">Number of Guests</label>
+                    <select id="guests" required>
+                        <option value="1" data-translate="bookingModal.guestsOptions.1">1 Guest</option>
+                        <option value="2" data-translate="bookingModal.guestsOptions.2">2 Guests</option>
+                        <option value="3" data-translate="bookingModal.guestsOptions.3">3 Guests</option>
+                        <option value="4" data-translate="bookingModal.guestsOptions.4">4 Guests</option>
+                        <option value="5" data-translate="bookingModal.guestsOptions.5">5 Guests</option>
+                        <option value="6" data-translate="bookingModal.guestsOptions.6">6 Guests</option>
+                        <option value="more" data-translate="bookingModal.guestsOptions.more">More than 6</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-translate="bookingModal.requests">Special Requests</label>
+                    <textarea id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="submit-btn" data-translate="bookingModal.bookNow">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="image-modal">
+        <span class="close-image-modal">&times;</span>
+        <img class="modal-image" src="" alt="">
+    </div>
+
+    <!-- Dish Modal -->
+    <div class="modal dish-modal">
+        <div class="modal-content dish-modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="dish-modal-grid">
+                <div class="dish-modal-image">
+                    <img src="" alt="">
+                </div>
+                <div class="dish-modal-info">
+                    <h2 class="dish-title"></h2>
+                    <p class="dish-full-desc"></p>
+                    <div class="dish-details">
+                        <div class="ingredients-section">
+                            <h3 data-translate="dishModal.ingredients">Ingredients</h3>
+                            <p class="dish-ingredients"></p>
+                        </div>
+                        <div class="nutrition-section">
+                            <h3 data-translate="dishModal.nutritionFacts">Nutrition Facts</h3>
+                            <div class="nutrition-grid">
+                                <div class="nutrition-item">
+                                    <span data-translate="dishModal.calories">Calories</span>
+                                    <span class="dish-calories"></span>
+                                </div>
+                                <div class="nutrition-item">
+                                    <span data-translate="dishModal.protein">Protein</span>
+                                    <span class="dish-protein"></span>
+                                </div>
+                                <div class="nutrition-item">
+                                    <span data-translate="dishModal.fats">Fats</span>
+                                    <span class="dish-fats"></span>
+                                </div>
+                                <div class="nutrition-item">
+                                    <span data-translate="dishModal.carbs">Carbohydrates</span>
+                                    <span class="dish-carbs"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Modal -->
+    <div class="modal menu-modal">
+        <div class="modal-content menu-modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="menu-modal-header">
+                <h2 class="menu-title"></h2>
+            </div>
+            <div class="menu-modal-body">
+                <!-- Content will be dynamically generated -->
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
